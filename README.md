@@ -1,6 +1,7 @@
 # Mineral Deposit Classifier
 
 A Streamlit application for geochemical analysis and machine learning classification of mineral deposit types based on trace element data.
+**[Live Application](https://geospatial-mineral-analysis.streamlit.app/)**
 
 ## Features
 
