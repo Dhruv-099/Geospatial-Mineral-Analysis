@@ -8786,3 +8786,919 @@ ValueError: Target scores need to be probabilities for multiclass roc_auc, i.e. 
 2025-11-08 11:43:46,889:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
   warnings.warn(
 
+2025-11-08 11:47:04,084:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:04,103:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:04,123:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:07,260:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:07,279:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:07,297:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:36,102:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:36,136:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:36,187:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:36,242:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:36,258:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:36,273:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:37,467:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:37,498:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:37,564:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:37,814:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:37,829:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:37,856:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:39,552:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:39,588:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:39,620:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:40,575:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:40,589:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:47:40,607:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:51,837:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:51,849:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:51,861:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:51,978:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:51,986:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:51,994:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:52,016:INFO:Calculating mean and std
+2025-11-08 11:48:52,022:INFO:Creating metrics dataframe
+2025-11-08 11:48:52,033:INFO:Uploading results into container
+2025-11-08 11:48:52,034:INFO:Uploading model into container now
+2025-11-08 11:48:52,036:INFO:_master_model_container: 15
+2025-11-08 11:48:52,036:INFO:_display_container: 2
+2025-11-08 11:48:52,036:INFO:<catboost.core.CatBoostClassifier object at 0x7f0ee3fb5a50>
+2025-11-08 11:48:52,036:INFO:create_model() successfully completed......................................
+2025-11-08 11:48:52,431:INFO:SubProcess create_model() end ==================================
+2025-11-08 11:48:52,431:INFO:Creating metrics dataframe
+2025-11-08 11:48:52,474:INFO:Initializing Dummy Classifier
+2025-11-08 11:48:52,479:INFO:Total runtime is 47.29410753250122 minutes
+2025-11-08 11:48:52,504:INFO:SubProcess create_model() called ==================================
+2025-11-08 11:48:52,506:INFO:Initializing create_model()
+2025-11-08 11:48:52,506:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f0eeb231ad0>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f0ed8a71750>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-11-08 11:48:52,506:INFO:Checking exceptions
+2025-11-08 11:48:52,507:INFO:Importing libraries
+2025-11-08 11:48:52,507:INFO:Copying training dataset
+2025-11-08 11:48:52,548:INFO:Defining folds
+2025-11-08 11:48:52,549:INFO:Declaring metric variables
+2025-11-08 11:48:52,567:INFO:Importing untrained model
+2025-11-08 11:48:52,588:INFO:Dummy Classifier Imported successfully
+2025-11-08 11:48:52,629:INFO:Starting cross validation
+2025-11-08 11:48:52,634:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-11-08 11:48:52,821:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:52,835:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:52,842:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:52,852:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:52,992:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,014:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,022:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:53,031:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,111:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,123:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,129:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:53,136:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,136:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,146:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,151:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:53,157:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,183:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,187:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,190:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,198:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,203:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:53,203:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,209:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,213:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:53,234:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,224:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,240:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:53,247:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,249:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,252:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,257:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,261:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:53,267:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,268:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,275:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,282:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:53,284:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,290:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,291:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2025-11-08 11:48:53,299:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:53,328:INFO:Calculating mean and std
+2025-11-08 11:48:53,331:INFO:Creating metrics dataframe
+2025-11-08 11:48:53,343:INFO:Uploading results into container
+2025-11-08 11:48:53,346:INFO:Uploading model into container now
+2025-11-08 11:48:53,347:INFO:_master_model_container: 16
+2025-11-08 11:48:53,348:INFO:_display_container: 2
+2025-11-08 11:48:53,349:INFO:DummyClassifier(constant=None, random_state=123, strategy='prior')
+2025-11-08 11:48:53,349:INFO:create_model() successfully completed......................................
+2025-11-08 11:48:53,695:INFO:SubProcess create_model() end ==================================
+2025-11-08 11:48:53,696:INFO:Creating metrics dataframe
+2025-11-08 11:48:53,750:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:339: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  .applymap(highlight_cols, subset=["TT (Sec)"])
+
+2025-11-08 11:48:53,802:INFO:Initializing create_model()
+2025-11-08 11:48:53,804:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f0eeb231ad0>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-11-08 11:48:53,806:INFO:Checking exceptions
+2025-11-08 11:48:53,814:INFO:Importing libraries
+2025-11-08 11:48:53,816:INFO:Copying training dataset
+2025-11-08 11:48:53,859:INFO:Defining folds
+2025-11-08 11:48:53,861:INFO:Declaring metric variables
+2025-11-08 11:48:53,862:INFO:Importing untrained model
+2025-11-08 11:48:53,862:INFO:Declaring custom model
+2025-11-08 11:48:53,866:INFO:Random Forest Classifier Imported successfully
+2025-11-08 11:48:53,870:INFO:Cross validation set to False
+2025-11-08 11:48:53,871:INFO:Fitting Model
+2025-11-08 11:48:54,448:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-11-08 11:48:54,448:INFO:create_model() successfully completed......................................
+2025-11-08 11:48:54,862:INFO:_master_model_container: 16
+2025-11-08 11:48:54,863:INFO:_display_container: 2
+2025-11-08 11:48:54,864:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-11-08 11:48:54,864:INFO:compare_models() successfully completed......................................
+2025-11-08 11:48:55,090:INFO:Initializing create_model()
+2025-11-08 11:48:55,091:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f0eeb231ad0>, estimator=rf, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-11-08 11:48:55,092:INFO:Checking exceptions
+2025-11-08 11:48:55,145:INFO:Importing libraries
+2025-11-08 11:48:55,147:INFO:Copying training dataset
+2025-11-08 11:48:55,178:INFO:Defining folds
+2025-11-08 11:48:55,179:INFO:Declaring metric variables
+2025-11-08 11:48:55,195:INFO:Importing untrained model
+2025-11-08 11:48:55,215:INFO:Random Forest Classifier Imported successfully
+2025-11-08 11:48:55,251:INFO:Starting cross validation
+2025-11-08 11:48:55,255:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-11-08 11:48:57,397:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,446:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,472:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,476:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,514:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,555:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,750:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,770:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,787:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,818:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,861:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,883:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,903:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,913:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:57,933:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:58,026:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:58,047:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:58,067:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:58,244:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:58,290:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:58,316:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:58,320:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:58,383:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:58,408:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:59,273:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:59,288:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:59,299:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:59,389:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:59,400:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:59,409:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:48:59,433:INFO:Calculating mean and std
+2025-11-08 11:48:59,438:INFO:Creating metrics dataframe
+2025-11-08 11:48:59,463:INFO:Finalizing model
+2025-11-08 11:49:00,972:INFO:Uploading results into container
+2025-11-08 11:49:00,989:INFO:Uploading model into container now
+2025-11-08 11:49:01,139:INFO:_master_model_container: 17
+2025-11-08 11:49:01,144:INFO:_display_container: 3
+2025-11-08 11:49:01,151:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-11-08 11:49:01,154:INFO:create_model() successfully completed......................................
+2025-11-08 11:49:01,814:INFO:Initializing tune_model()
+2025-11-08 11:49:01,814:INFO:tune_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f0eeb231ad0>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={})
+2025-11-08 11:49:01,815:INFO:Checking exceptions
+2025-11-08 11:49:01,895:INFO:Copying training dataset
+2025-11-08 11:49:01,924:INFO:Checking base model
+2025-11-08 11:49:01,926:INFO:Base model : Random Forest Classifier
+2025-11-08 11:49:01,948:INFO:Declaring metric variables
+2025-11-08 11:49:01,972:INFO:Defining Hyperparameters
+2025-11-08 11:49:02,413:INFO:Tuning with n_jobs=-1
+2025-11-08 11:49:02,414:INFO:Initializing RandomizedSearchCV
+2025-11-08 11:49:35,549:INFO:best_params: {'actual_estimator__n_estimators': 260, 'actual_estimator__min_samples_split': 5, 'actual_estimator__min_samples_leaf': 3, 'actual_estimator__min_impurity_decrease': 0.0005, 'actual_estimator__max_features': 'sqrt', 'actual_estimator__max_depth': 4, 'actual_estimator__criterion': 'gini', 'actual_estimator__class_weight': 'balanced_subsample', 'actual_estimator__bootstrap': False}
+2025-11-08 11:49:35,551:INFO:Hyperparameter search completed
+2025-11-08 11:49:35,552:INFO:SubProcess create_model() called ==================================
+2025-11-08 11:49:35,554:INFO:Initializing create_model()
+2025-11-08 11:49:35,555:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f0eeb231ad0>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f0ee8359b50>, model_only=True, return_train_score=False, error_score=0.0, kwargs={'n_estimators': 260, 'min_samples_split': 5, 'min_samples_leaf': 3, 'min_impurity_decrease': 0.0005, 'max_features': 'sqrt', 'max_depth': 4, 'criterion': 'gini', 'class_weight': 'balanced_subsample', 'bootstrap': False})
+2025-11-08 11:49:35,555:INFO:Checking exceptions
+2025-11-08 11:49:35,555:INFO:Importing libraries
+2025-11-08 11:49:35,556:INFO:Copying training dataset
+2025-11-08 11:49:35,582:INFO:Defining folds
+2025-11-08 11:49:35,583:INFO:Declaring metric variables
+2025-11-08 11:49:35,594:INFO:Importing untrained model
+2025-11-08 11:49:35,594:INFO:Declaring custom model
+2025-11-08 11:49:35,613:INFO:Random Forest Classifier Imported successfully
+2025-11-08 11:49:35,639:INFO:Starting cross validation
+2025-11-08 11:49:35,642:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-11-08 11:49:39,613:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:39,637:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:39,658:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:39,866:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:39,890:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:39,909:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,216:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,246:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,268:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,536:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,562:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,585:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,798:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,836:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,848:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,857:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,920:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,966:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:40,983:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:41,015:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:41,042:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:41,094:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:41,113:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:41,131:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:42,503:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:42,517:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:42,529:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:42,613:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:42,629:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:42,648:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:42,678:INFO:Calculating mean and std
+2025-11-08 11:49:42,686:INFO:Creating metrics dataframe
+2025-11-08 11:49:42,752:INFO:Finalizing model
+2025-11-08 11:49:45,189:INFO:Uploading results into container
+2025-11-08 11:49:45,194:INFO:Uploading model into container now
+2025-11-08 11:49:45,198:INFO:_master_model_container: 18
+2025-11-08 11:49:45,199:INFO:_display_container: 4
+2025-11-08 11:49:45,203:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0,
+                       class_weight='balanced_subsample', criterion='gini',
+                       max_depth=4, max_features='sqrt', max_leaf_nodes=None,
+                       max_samples=None, min_impurity_decrease=0.0005,
+                       min_samples_leaf=3, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, monotonic_cst=None,
+                       n_estimators=260, n_jobs=-1, oob_score=False,
+                       random_state=123, verbose=0, warm_start=False)
+2025-11-08 11:49:45,204:INFO:create_model() successfully completed......................................
+2025-11-08 11:49:45,775:INFO:SubProcess create_model() end ==================================
+2025-11-08 11:49:45,776:INFO:choose_better activated
+2025-11-08 11:49:45,806:INFO:SubProcess create_model() called ==================================
+2025-11-08 11:49:45,812:INFO:Initializing create_model()
+2025-11-08 11:49:45,814:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f0eeb231ad0>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2025-11-08 11:49:45,815:INFO:Checking exceptions
+2025-11-08 11:49:45,827:INFO:Importing libraries
+2025-11-08 11:49:45,828:INFO:Copying training dataset
+2025-11-08 11:49:45,905:INFO:Defining folds
+2025-11-08 11:49:45,907:INFO:Declaring metric variables
+2025-11-08 11:49:45,911:INFO:Importing untrained model
+2025-11-08 11:49:45,912:INFO:Declaring custom model
+2025-11-08 11:49:45,921:INFO:Random Forest Classifier Imported successfully
+2025-11-08 11:49:45,923:INFO:Starting cross validation
+2025-11-08 11:49:45,930:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-11-08 11:49:48,603:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,629:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,649:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,684:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,704:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,725:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,735:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,768:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,791:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,805:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,825:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,843:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,852:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,872:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,902:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,951:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,968:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,988:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:48,999:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,019:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,037:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,166:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,187:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,202:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,854:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,867:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,886:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,907:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,924:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,937:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:49,965:INFO:Calculating mean and std
+2025-11-08 11:49:49,968:INFO:Creating metrics dataframe
+2025-11-08 11:49:49,977:INFO:Finalizing model
+2025-11-08 11:49:50,903:INFO:Uploading results into container
+2025-11-08 11:49:50,905:INFO:Uploading model into container now
+2025-11-08 11:49:50,906:INFO:_master_model_container: 19
+2025-11-08 11:49:50,907:INFO:_display_container: 5
+2025-11-08 11:49:50,908:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-11-08 11:49:50,909:INFO:create_model() successfully completed......................................
+2025-11-08 11:49:51,348:INFO:SubProcess create_model() end ==================================
+2025-11-08 11:49:51,351:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False) result for Accuracy is 1.0
+2025-11-08 11:49:51,354:INFO:RandomForestClassifier(bootstrap=False, ccp_alpha=0.0,
+                       class_weight='balanced_subsample', criterion='gini',
+                       max_depth=4, max_features='sqrt', max_leaf_nodes=None,
+                       max_samples=None, min_impurity_decrease=0.0005,
+                       min_samples_leaf=3, min_samples_split=5,
+                       min_weight_fraction_leaf=0.0, monotonic_cst=None,
+                       n_estimators=260, n_jobs=-1, oob_score=False,
+                       random_state=123, verbose=0, warm_start=False) result for Accuracy is 1.0
+2025-11-08 11:49:51,355:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False) is best model
+2025-11-08 11:49:51,356:INFO:choose_better completed
+2025-11-08 11:49:51,356:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2025-11-08 11:49:51,405:INFO:_master_model_container: 19
+2025-11-08 11:49:51,406:INFO:_display_container: 4
+2025-11-08 11:49:51,409:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-11-08 11:49:51,410:INFO:tune_model() successfully completed......................................
+2025-11-08 11:49:51,949:INFO:Initializing finalize_model()
+2025-11-08 11:49:51,950:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f0eeb231ad0>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2025-11-08 11:49:51,954:INFO:Finalizing RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2025-11-08 11:49:51,996:INFO:Initializing create_model()
+2025-11-08 11:49:51,996:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f0eeb231ad0>, estimator=RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       monotonic_cst=None, n_estimators=100, n_jobs=-1,
+                       oob_score=False, random_state=123, verbose=0,
+                       warm_start=False), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, error_score=0.0, kwargs={})
+2025-11-08 11:49:51,996:INFO:Checking exceptions
+2025-11-08 11:49:52,003:INFO:Importing libraries
+2025-11-08 11:49:52,004:INFO:Copying training dataset
+2025-11-08 11:49:52,010:INFO:Defining folds
+2025-11-08 11:49:52,011:INFO:Declaring metric variables
+2025-11-08 11:49:52,012:INFO:Importing untrained model
+2025-11-08 11:49:52,013:INFO:Declaring custom model
+2025-11-08 11:49:52,018:INFO:Random Forest Classifier Imported successfully
+2025-11-08 11:49:52,023:INFO:Cross validation set to False
+2025-11-08 11:49:52,024:INFO:Fitting Model
+2025-11-08 11:49:53,474:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['P', 'Ti', 'Cr', 'Co', 'Ni', 'Cu',
+                                             'Zn', 'As', 'Se', 'Rb', 'Sr', 'Mo',
+                                             'Ag', 'Sb', 'La', 'Ce', 'Pr', 'Nd',
+                                             'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho',
+                                             'Er', 'Tm', 'Yb', 'Lu', '...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, n_estimators=100,
+                                        n_jobs=-1, oob_score=False,
+                                        random_state=123, verbose=0,
+                                        warm_start=False))],
+         verbose=False)
+2025-11-08 11:49:53,475:INFO:create_model() successfully completed......................................
+2025-11-08 11:49:54,038:INFO:_master_model_container: 19
+2025-11-08 11:49:54,039:INFO:_display_container: 4
+2025-11-08 11:49:54,097:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['P', 'Ti', 'Cr', 'Co', 'Ni', 'Cu',
+                                             'Zn', 'As', 'Se', 'Rb', 'Sr', 'Mo',
+                                             'Ag', 'Sb', 'La', 'Ce', 'Pr', 'Nd',
+                                             'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho',
+                                             'Er', 'Tm', 'Yb', 'Lu', '...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, n_estimators=100,
+                                        n_jobs=-1, oob_score=False,
+                                        random_state=123, verbose=0,
+                                        warm_start=False))],
+         verbose=False)
+2025-11-08 11:49:54,097:INFO:finalize_model() successfully completed......................................
+2025-11-08 11:49:54,786:INFO:Initializing predict_model()
+2025-11-08 11:49:54,787:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f0eeb231ad0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['P', 'Ti', 'Cr', 'Co', 'Ni', 'Cu',
+                                             'Zn', 'As', 'Se', 'Rb', 'Sr', 'Mo',
+                                             'Ag', 'Sb', 'La', 'Ce', 'Pr', 'Nd',
+                                             'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho',
+                                             'Er', 'Tm', 'Yb', 'Lu', '...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, n_estimators=100,
+                                        n_jobs=-1, oob_score=False,
+                                        random_state=123, verbose=0,
+                                        warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f0f3e62ad40>)
+2025-11-08 11:49:54,787:INFO:Checking exceptions
+2025-11-08 11:49:54,788:INFO:Preloading libraries
+2025-11-08 11:49:54,809:INFO:Set up data.
+2025-11-08 11:49:55,095:INFO:Set up index.
+2025-11-08 11:49:55,639:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:55,654:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:55,666:WARNING:/home/dhruv/Mineral_model/.venv/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1561: UserWarning: Note that pos_label (set to 'VMS') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2025-11-08 11:49:56,598:INFO:Initializing save_model()
+2025-11-08 11:49:56,599:INFO:save_model(model=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['P', 'Ti', 'Cr', 'Co', 'Ni', 'Cu',
+                                             'Zn', 'As', 'Se', 'Rb', 'Sr', 'Mo',
+                                             'Ag', 'Sb', 'La', 'Ce', 'Pr', 'Nd',
+                                             'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho',
+                                             'Er', 'Tm', 'Yb', 'Lu', '...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, n_estimators=100,
+                                        n_jobs=-1, oob_score=False,
+                                        random_state=123, verbose=0,
+                                        warm_start=False))],
+         verbose=False), model_name=mineral_deposit_classifier, prep_pipe_=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['P', 'Ti', 'Cr', 'Co', 'Ni', 'Cu',
+                                             'Zn', 'As', 'Se', 'Rb', 'Sr', 'Mo',
+                                             'Ag', 'Sb', 'La', 'Ce', 'Pr', 'Nd',
+                                             'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho',
+                                             'Er', 'Tm',...
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='median'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2025-11-08 11:49:56,600:INFO:Adding model into prep_pipe
+2025-11-08 11:49:56,600:WARNING:Only Model saved as it was a pipeline.
+2025-11-08 11:49:56,834:INFO:mineral_deposit_classifier.pkl saved in current working directory
+2025-11-08 11:49:56,859:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['P', 'Ti', 'Cr', 'Co', 'Ni', 'Cu',
+                                             'Zn', 'As', 'Se', 'Rb', 'Sr', 'Mo',
+                                             'Ag', 'Sb', 'La', 'Ce', 'Pr', 'Nd',
+                                             'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho',
+                                             'Er', 'Tm', 'Yb', 'Lu', '...
+                 RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                                        class_weight=None, criterion='gini',
+                                        max_depth=None, max_features='sqrt',
+                                        max_leaf_nodes=None, max_samples=None,
+                                        min_impurity_decrease=0.0,
+                                        min_samples_leaf=1, min_samples_split=2,
+                                        min_weight_fraction_leaf=0.0,
+                                        monotonic_cst=None, n_estimators=100,
+                                        n_jobs=-1, oob_score=False,
+                                        random_state=123, verbose=0,
+                                        warm_start=False))],
+         verbose=False)
+2025-11-08 11:49:56,859:INFO:save_model() successfully completed......................................
+2025-11-08 11:50:05,423:WARNING:/tmp/ipykernel_5984/1817312141.py:816: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+
