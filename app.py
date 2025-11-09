@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import joblib
 import numpy as np
-import json # Import the json library
+import json 
 
 # --- 1. Page Configuration ---
 st.set_page_config(
@@ -46,7 +46,7 @@ else:
 # --- 4. Main Page Content ---
 
 if page == "Home":
-    st.title("🌍 Geospatial Mineral Deposit Analysis & Classifier")
+    st.title("Geospatial Mineral Deposit Analysis & Classifier")
     st.markdown("An interactive dashboard for analyzing geochemical signatures and predicting mineral deposit types with machine learning.")
     st.header("Project Overview")
     st.write("""
@@ -133,7 +133,7 @@ elif page == "Data Analysis":
             st.dataframe(plot_data[[selected_option, 'Deposit_Type']].describe())
 
 elif page == "Deposit Comparison":
-    st.title("📊 Comparing Element Distributions Across Deposits")
+    st.title("Comparing Element Distributions Across Deposits")
     element_list = sorted(master_df.select_dtypes(include='number').columns.tolist())
     selected_element_comp = st.selectbox("Select an Element to Compare", element_list, key="comp_element")
     if selected_element_comp:
@@ -145,9 +145,9 @@ elif page == "Deposit Comparison":
         st.plotly_chart(fig_comp_violin, use_container_width=True)
 
 elif page == "Predict Deposit Type":
-    st.title("🤖 Predict Deposit Type via CSV Upload")
+    st.title("Predict Deposit Type via CSV Upload")
     st.markdown("Upload a CSV file with new sample data. The model will predict the deposit type for each sample.")
-    st.info(f"The model expects the following columns: **{', '.join(model_features)}**. Missing columns will be automatically imputed with the median value.")
+    st.info(f"The model expects the following columns: **{', '.join(model_features)}**. Missing columns in your upload will be automatically treated as zero (0).")
     
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
     if uploaded_file is not None:
@@ -157,14 +157,16 @@ elif page == "Predict Deposit Type":
             st.dataframe(uploaded_df.head())
 
             if st.button("Run Predictions on Uploaded File"):
-                with st.spinner("Analyzing samples..."):
+                with st.spinner("Analyzing samples"):
                     prediction_template = pd.DataFrame(columns=model_features)
                     input_df = pd.concat([prediction_template, uploaded_df], ignore_index=True)
                     input_df_for_model = input_df[model_features]
+                    input_df_for_model.fillna(0, inplace=True)
                     predictions_numeric = model_pipeline.predict(input_df_for_model)
                     predictions_text = label_encoder.inverse_transform(predictions_numeric)
                     prediction_probas = model_pipeline.predict_proba(input_df_for_model)
-                    results_df = uploaded_df.copy() 
+                    
+                    results_df = uploaded_df.copy()
                     results_df['Predicted_Deposit_Type'] = predictions_text
                     results_df['Confidence_Score'] = np.max(prediction_probas, axis=1)
 
@@ -177,13 +179,11 @@ elif page == "Predict Deposit Type":
                         return df.to_csv(index=False).encode('utf-8')
 
                     csv_output = convert_df_to_csv(results_df)
-
                     st.download_button(
                         label="Download Results as CSV",
                         data=csv_output,
                         file_name='prediction_results.csv',
                         mime='text/csv',
                     )
-
         except Exception as e:
             st.error(f"An error occurred while processing the file: {e}")
