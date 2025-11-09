@@ -1,0 +1,11 @@
+{
+    "cross_validation_accuracy": 1.0,
+    "full_training_set_accuracy": 1.0,
+    "overfitting_gap": 0.0,
+    "best_parameters": {
+        "classifier__max_depth": 5,
+        "classifier__min_samples_leaf": 2,
+        "classifier__min_samples_split": 5,
+        "classifier__n_estimators": 100
+    }
+}
