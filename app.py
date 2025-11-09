@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import joblib
 import numpy as np
+import json # Import the json library
 
 # --- 1. Page Configuration ---
 st.set_page_config(
@@ -23,10 +24,12 @@ def load_prediction_assets():
     model = joblib.load('mineral_deposit_classifier_sklearn.pkl')
     encoder = joblib.load('label_encoder.pkl')
     features = joblib.load('model_features.pkl')
-    return model, encoder, features
+    with open('model_performance.json', 'r') as f:
+        performance = json.load(f)
+    return model, encoder, features, performance
 
 master_df = load_data()
-model_pipeline, label_encoder, model_features = load_prediction_assets()
+model_pipeline, label_encoder, model_features, model_performance = load_prediction_assets()
 
 # --- 3. Sidebar ---
 st.sidebar.title("Dashboard Controls")
@@ -50,17 +53,41 @@ if page == "Home":
     - **Data Analysis & Comparison:** Explore the geochemical signatures of known deposits.
     - **Predict Deposit Type:** Upload a CSV file with new sample data to get batch predictions from our trained model.
     """)
-    st.header("Dataset at a Glance")
     col1, col2 = st.columns(2)
     with col1:
+        st.header("Dataset at a Glance")
         st.metric("Total Samples Analyzed", len(master_df))
         st.metric("Number of Deposit Types", master_df['Deposit_Type'].nunique())
         st.metric("Total Elements Measured", len(master_df.select_dtypes(include=np.number).columns))
-    with col2:
         st.write("Sample Distribution by Type:")
         deposit_counts = master_df['Deposit_Type'].value_counts()
         st.bar_chart(deposit_counts)
+    with col2:
+        st.header("Predictive Model Performance")
+        st.markdown("The classification model is a **Random Forest Classifier** trained and tuned using Scikit-learn. Here are its key performance metrics:")
+        
+        cv_accuracy = model_performance.get("cross_validation_accuracy", "N/A")
+        train_accuracy = model_performance.get("full_training_set_accuracy", "N/A")
+        
+        st.metric(
+            label="Cross-Validation Accuracy",
+            value=f"{cv_accuracy:.4f}",
+            help="The average accuracy of the model on unseen data folds during training. This is the most realistic measure of performance."
+        )
+        
+        st.metric(
+            label="Training Set Accuracy",
+            value=f"{train_accuracy:.4f}",
+            help="The accuracy of the model on the data it was trained on. A large gap between this and CV Accuracy can indicate overfitting."
+        )
 
+        st.subheader("Best Model Parameters")
+        st.markdown("The following parameters were found to be optimal through a cross-validated grid search, balancing accuracy and preventing overfitting:")
+        
+        best_params = model_performance.get("best_parameters", {})
+        for param, value in best_params.items():
+            clean_param = param.replace('classifier__', '').replace('_', ' ').title()
+            st.text(f"- {clean_param}: {value}")
 elif page == "Data Analysis":
     st.title("🔬 Single Deposit Analysis")
     if selected_deposit == 'All':
@@ -88,13 +115,7 @@ elif page == "Data Analysis":
                 st.warning("Not enough element data present for this deposit type to generate a correlation matrix.")
             else:
                 corr_matrix = present_elements_df.corr()
-                fig_heatmap = px.imshow(
-                    corr_matrix,
-                    text_auto=False,
-                    aspect="auto",
-                    color_continuous_scale='RdBu', 
-                    title="Interactive Heatmap of Element Correlations"
-                )
+                fig_heatmap = px.imshow(corr_matrix, text_auto=False, aspect="auto", color_continuous_scale='RdBu', title="Interactive Heatmap of Element Correlations")
                 st.plotly_chart(fig_heatmap, use_container_width=True)
                 st.markdown("This heatmap shows the correlation between pairs of elements. Red indicates a positive correlation, while blue indicates a negative correlation.")
 
@@ -125,37 +146,44 @@ elif page == "Deposit Comparison":
 
 elif page == "Predict Deposit Type":
     st.title("🤖 Predict Deposit Type via CSV Upload")
-    st.markdown("Upload a CSV file containing new sample data. The model will predict the deposit type for each sample.")
-    st.info(f"Please ensure your CSV file contains the following columns: **{', '.join(model_features)}**")
+    st.markdown("Upload a CSV file with new sample data. The model will predict the deposit type for each sample.")
+    st.info(f"The model expects the following columns: **{', '.join(model_features)}**. Missing columns will be automatically imputed with the median value.")
+    
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
     if uploaded_file is not None:
         try:
-            input_df = pd.read_csv(uploaded_file)
+            uploaded_df = pd.read_csv(uploaded_file)
             st.subheader("Uploaded Data Preview")
-            st.dataframe(input_df.head())
-            if not all(feature in input_df.columns for feature in model_features):
-                st.error("The uploaded CSV is missing one or more required columns. Please check the list above and try again.")
-            else:
-                if st.button("Run Predictions on Uploaded File"):
-                    with st.spinner("Analyzing samples..."):
-                        predictions_numeric = model_pipeline.predict(input_df[model_features])
-                        predictions_text = label_encoder.inverse_transform(predictions_numeric)
-                        prediction_probas = model_pipeline.predict_proba(input_df[model_features])
-                        results_df = input_df.copy()
-                        results_df['Predicted_Deposit_Type'] = predictions_text
-                        results_df['Confidence_Score'] = np.max(prediction_probas, axis=1)
-                        st.success("Prediction complete!")
-                        st.subheader("Prediction Results")
-                        st.dataframe(results_df)
-                        @st.cache_data
-                        def convert_df_to_csv(df):
-                            return df.to_csv(index=False).encode('utf-8')
-                        csv_output = convert_df_to_csv(results_df)
-                        st.download_button(
-                            label="Download Results as CSV",
-                            data=csv_output,
-                            file_name='prediction_results.csv',
-                            mime='text/csv',
-                        )
+            st.dataframe(uploaded_df.head())
+
+            if st.button("Run Predictions on Uploaded File"):
+                with st.spinner("Analyzing samples..."):
+                    prediction_template = pd.DataFrame(columns=model_features)
+                    input_df = pd.concat([prediction_template, uploaded_df], ignore_index=True)
+                    input_df_for_model = input_df[model_features]
+                    predictions_numeric = model_pipeline.predict(input_df_for_model)
+                    predictions_text = label_encoder.inverse_transform(predictions_numeric)
+                    prediction_probas = model_pipeline.predict_proba(input_df_for_model)
+                    results_df = uploaded_df.copy() 
+                    results_df['Predicted_Deposit_Type'] = predictions_text
+                    results_df['Confidence_Score'] = np.max(prediction_probas, axis=1)
+
+                    st.success("Prediction complete!")
+                    st.subheader("Prediction Results")
+                    st.dataframe(results_df)
+
+                    @st.cache_data
+                    def convert_df_to_csv(df):
+                        return df.to_csv(index=False).encode('utf-8')
+
+                    csv_output = convert_df_to_csv(results_df)
+
+                    st.download_button(
+                        label="Download Results as CSV",
+                        data=csv_output,
+                        file_name='prediction_results.csv',
+                        mime='text/csv',
+                    )
+
         except Exception as e:
             st.error(f"An error occurred while processing the file: {e}")
