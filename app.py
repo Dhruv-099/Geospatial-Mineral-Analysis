@@ -20,7 +20,6 @@ def load_data():
 
 @st.cache_resource
 def load_prediction_assets():
-    # Load all three required files for prediction
     model = joblib.load('mineral_deposit_classifier_sklearn.pkl')
     encoder = joblib.load('label_encoder.pkl')
     features = joblib.load('model_features.pkl')
@@ -89,7 +88,13 @@ elif page == "Data Analysis":
                 st.warning("Not enough element data present for this deposit type to generate a correlation matrix.")
             else:
                 corr_matrix = present_elements_df.corr()
-                fig_heatmap = px.imshow(corr_matrix, text_auto=False, aspect="auto", color_continuous_scale='coolwarm', title="Interactive Heatmap of Element Correlations")
+                fig_heatmap = px.imshow(
+                    corr_matrix,
+                    text_auto=False,
+                    aspect="auto",
+                    color_continuous_scale='RdBu', 
+                    title="Interactive Heatmap of Element Correlations"
+                )
                 st.plotly_chart(fig_heatmap, use_container_width=True)
                 st.markdown("This heatmap shows the correlation between pairs of elements. Red indicates a positive correlation, while blue indicates a negative correlation.")
 
@@ -121,10 +126,7 @@ elif page == "Deposit Comparison":
 elif page == "Predict Deposit Type":
     st.title("🤖 Predict Deposit Type via CSV Upload")
     st.markdown("Upload a CSV file containing new sample data. The model will predict the deposit type for each sample.")
-    
-    # We now use the list loaded directly from our file
     st.info(f"Please ensure your CSV file contains the following columns: **{', '.join(model_features)}**")
-    
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
     if uploaded_file is not None:
         try:
@@ -139,21 +141,16 @@ elif page == "Predict Deposit Type":
                         predictions_numeric = model_pipeline.predict(input_df[model_features])
                         predictions_text = label_encoder.inverse_transform(predictions_numeric)
                         prediction_probas = model_pipeline.predict_proba(input_df[model_features])
-                        
                         results_df = input_df.copy()
                         results_df['Predicted_Deposit_Type'] = predictions_text
                         results_df['Confidence_Score'] = np.max(prediction_probas, axis=1)
-                        
                         st.success("Prediction complete!")
                         st.subheader("Prediction Results")
                         st.dataframe(results_df)
-                        
                         @st.cache_data
                         def convert_df_to_csv(df):
                             return df.to_csv(index=False).encode('utf-8')
-                        
                         csv_output = convert_df_to_csv(results_df)
-                        
                         st.download_button(
                             label="Download Results as CSV",
                             data=csv_output,
