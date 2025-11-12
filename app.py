@@ -115,7 +115,7 @@ elif page == "Data Analysis":
                 st.warning("Not enough element data present for this deposit type to generate a correlation matrix.")
             else:
                 corr_matrix = present_elements_df.corr()
-                fig_heatmap = px.imshow(corr_matrix, text_auto=False, aspect="auto", color_continuous_scale='RdBu', title="Interactive Heatmap of Element Correlations")
+                fig_heatmap = px.imshow(corr_matrix, text_auto=False, aspect="auto", color_continuous_scale='RdBu_r', title="Interactive Heatmap of Element Correlations")
                 st.plotly_chart(fig_heatmap, use_container_width=True)
                 st.markdown("This heatmap shows the correlation between pairs of elements. Red indicates a positive correlation, while blue indicates a negative correlation.")
 
